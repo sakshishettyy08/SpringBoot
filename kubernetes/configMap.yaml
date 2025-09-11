@@ -7,3 +7,5 @@ data:
   SPRING_DATASOURCE_URL: jdbc:mysql://bankapp-ab.cefo7yhuwfxg.us-east-1.rds.amazonaws.com:3306/BankDB
   SPRING_DATASOURCE_USERNAME: admin
   MYSQL_DATABASE: BankDB
+  SPRING_JPA_HIBERNATE_DDL_AUTO: update
+  SPRING_JPA_SHOW_SQL: "true"
