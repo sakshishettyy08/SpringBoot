@@ -4,7 +4,6 @@ metadata:
   name: bankapp-config
   namespace: bankapp-namespace
 data:
+  SPRING_DATASOURCE_URL: jdbc:mysql://bankapp-ab.cefo7yhuwfxg.us-east-1.rds.amazonaws.com:3306/BankDB
+  SPRING_DATASOURCE_USERNAME: admin
   MYSQL_DATABASE: BankDB
-  SPRING_DATASOURCE_URL: jdbc:mysql://mysql-svc.bankapp-namespace.svc.cluster.local:3306/BankDB?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
-  SPRING_DATASOURCE_USERNAME: root
-
